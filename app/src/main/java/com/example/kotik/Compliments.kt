@@ -1,7 +1,7 @@
 package com.example.kotik
 
-fun text(text: Int): String {
-    return when (text) {
+fun text(numberOfCompliment: Int): String {
+    return when (numberOfCompliment) {
         1 -> "Tы самая лучшая!"
         2 -> "Ты самая прекрасная!"
         3 -> "Ты всегда отлично выглядишь!"
